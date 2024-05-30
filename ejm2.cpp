@@ -2,7 +2,7 @@
 #include <vector>
 
 using namespace std;
-
+//no da la suma correcta
 int main() {
     const int Fl = 4;
     const int COL = 3;
