@@ -25,6 +25,7 @@ int main() {
 
     int ms= sm[0];
     for (int j = 1; j < COL; ++j) {
+        
         if (sm[j] > ms) {
             ms = sm[j];
         }
