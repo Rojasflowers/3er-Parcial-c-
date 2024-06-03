@@ -12,7 +12,7 @@ int main() {
             cin >> tabla[fila][columna];
         }
     }
-    for (int columna = 0; columna < COLUMNAS; columna++) {
+    for (int columna = 0; columna < COLUMNAS; columna++) { 
         suma_columnas[columna] = 0;
         for (int fila = 0; fila < FILAS; fila++) {
             suma_columnas[columna] += tabla[fila][columna];

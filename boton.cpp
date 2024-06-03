@@ -51,7 +51,7 @@ LRESULT CALLBACK WindowProcedure(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
     case WM_CREATE:
         hwndButton = CreateWindow(
             "BUTTON",
-            "LILIA Y ROJAS",
+            "LILI Y ROJAS",
             WS_TABSTOP | WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON,
             50, 50, 100, 30,
             hwnd,
