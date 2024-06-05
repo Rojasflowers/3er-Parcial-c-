@@ -17,7 +17,7 @@ int main() {
         cin >> name;
         cout << "contraseña:\n";
         cin >> pass;   
-        if (strcmp(pass, "2b26") == 0 && strcmp(name, "Hernan") == 0) {
+        if (strcmp(pass, "2b35") == 0 && strcmp(name, "daniel") == 0) {
             cout << "Bienvenido al sistema\n";
             break;
         }
